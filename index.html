@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Giacomo Liberio | 3D Character Artist</title>
+  <meta name="description" content="Production portfolio of Giacomo Liberio, 3D Character Artist with 10+ years in games: Sackboy, Call of Duty Mobile, Metro Exodus, XIII Remake, Lost Ark and more.">
+  <meta property="og:title" content="Giacomo Liberio | 3D Character Artist">
+  <meta property="og:description" content="Production portfolio: 10+ years of character art, shaders and in-engine optimization.">
+  <meta property="og:type" content="website">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="progress" id="progress"></div>
+  <div class="bg" aria-hidden="true"><span class="blob b1"></span><span class="blob b2"></span><span class="blob b3"></span><div class="grain"></div></div>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-text">
+      <p class="eyebrow">Production Portfolio</p>
+      <h1><span class="line"><span>Giacomo</span></span> <span class="line"><span>Liberio</span></span></h1>
+      <p class="role">3D Character Artist</p>
+      <p class="lead">
+        A veteran character artist with more than 10 years in the games industry.
+        Truly passionate about my work and the game industry, always eager to learn,
+        create and experiment with new technologies. My work covers the full character
+        pipeline, from asset creation to shader development and in-engine performance optimization.
+      </p>
+      <div class="stats">
+        <div><strong data-count="10" data-suffix="+">10+</strong><span>years in games</span></div>
+        <div><strong id="stat-shipped">0</strong><span>projects</span></div>
+        <div><strong id="stat-studios">0</strong><span>studios</span></div>
+      </div>
+      <div class="cta">
+        <a class="btn" href="#work">View work</a>
+        <a class="btn ghost" href="#experience">Experience</a>
+      </div>
+      </div>
+      <figure class="portrait" id="portrait"><img src="assets/img/portrait.jpg" alt="Giacomo Liberio"></figure>
+    </section>
+
+    <section id="experience" class="section">
+      <div class="section-head"><h2>Experience</h2></div>
+      <ol class="timeline" id="timeline"></ol>
+      <div class="freelance">
+        <div class="when">Freelance</div>
+        <ul id="freelance"></ul>
+      </div>
+    </section>
+
+    <section id="work" class="section">
+      <div class="section-head">
+        <h2>Released Work</h2>
+        <div class="filters" id="filters"></div>
+      </div>
+      <div id="grid"></div>
+    </section>
+
+    <section id="unannounced" class="section">
+      <div class="section-head">
+        <h2>Unannounced &amp; Unreleased</h2>
+        <p class="muted">Projects I contributed to that are under NDA, cancelled or not yet public.</p>
+      </div>
+      <div id="unreleased"></div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year"></span> Giacomo Liberio. All projects and trademarks belong to their respective owners.</p>
+  </footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
